@@ -102,6 +102,7 @@ p {
   width: 80%;
   margin: 0 auto;
 }
+
 .btn {
   border: none;
 }
@@ -166,11 +167,9 @@ section {
   text-align: center;
   display: flex;
   flex-direction: column-reverse;
-
   padding: 3rem 2rem;
   box-shadow: 0px 1px 10px hsla(209, 11%, 55%, 0.353);
   border-radius: 10px;
-  box-sizing: content-box;
   margin: 0 auto;
 }
 section h2 {
@@ -179,4 +178,30 @@ section h2 {
 }
 section p {
   opacity: var(--opacity-text);
+}
+.pos--relative {
+  position: relative;
+}
+.last-section {
+  width: 95%;
+  box-shadow: 0px 1px 10px hsla(209, 11%, 55%, 0.353);
+  border-radius: 10px;
+  bottom: -20rem;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 1rem 2rem;
+
+  background-color: white;
+}
+.last-section button {
+  margin-bottom: 0;
+}
+footer {
+  background-color: var(--Very-Dark-Cyan);
+  padding-top: 8rem;
+  margin-top: 18rem;
 }
