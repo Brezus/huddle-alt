@@ -308,9 +308,6 @@ footer {
 .font-awes__cont__link i:hover {
   color: var(--Pink);
   border: 1px solid var(--Pink);
-  border-radius: 50%;
-  padding: 0.5rem;
-  font-size: 1rem;
   transform: translateY(-3px);
 }
 .font-awes__cont__link svg:hover {
