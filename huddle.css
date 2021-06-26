@@ -277,7 +277,13 @@ footer {
   align-self: start;
   margin: 0.3rem 0 0;
 }
-
+.spin {
+  transform: rotate(0deg);
+  transition: 1s;
+}
+.spin:hover {
+  transform: rotate(360deg);
+}
 .footer__font-awes {
   display: flex;
   flex-direction: column;
@@ -291,8 +297,12 @@ footer {
   color: white;
   border: 1px solid white;
   border-radius: 50%;
-  padding: 0.5rem;
+  padding: 0.45rem 0.55rem;
   font-size: 1rem;
+  transition: var(--transition);
+}
+.font-awes__cont__link svg {
+  fill: white;
   transition: var(--transition);
 }
 .font-awes__cont__link i:hover {
@@ -301,6 +311,10 @@ footer {
   border-radius: 50%;
   padding: 0.5rem;
   font-size: 1rem;
+  transform: translateY(-3px);
+}
+.font-awes__cont__link svg:hover {
+  fill: var(--Pink);
   transform: translateY(-3px);
 }
 .font-awes__cont {
