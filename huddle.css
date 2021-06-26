@@ -10,6 +10,7 @@
   --font-weight-l: 700;
   --opacity-heading: 0.82;
   --opacity-text: 0.6;
+  --transition: 0.3s ease;
 }
 /* Box sizing rules */
 *,
@@ -117,6 +118,14 @@ p {
   font-size: 0.85rem;
   font-family: var(--Regular-font);
   margin-bottom: 4rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.pink--bg:visited {
+  background: hsl(281, 100%, 66%);
+}
+.pink--bg:hover {
+  background: hsl(322, 100%, 76%);
 }
 .hero-nav-container {
   display: flex;
@@ -140,6 +149,13 @@ nav {
   font-weight: var(--font-weight-m);
   font-family: var(--Heading-font);
   font-size: 0.9rem;
+}
+
+.hero-nav__link--secondary:hover {
+  color: hsla(192, 100%, 9%, 0.541);
+}
+.hero-nav__link--secondary:active {
+  color: hsla(192, 100%, 9%, 0.541);
 }
 header h1 {
   font-family: var(--Heading-font);
@@ -277,6 +293,9 @@ small {
   margin: 1rem 0 3rem;
 }
 @media screen and (min-width: 850px) {
+  body {
+    font-size: 1.325rem;
+  }
   header {
     background-image: url(/images/bg-hero-desktop.svg);
     background-repeat: no-repeat;
