@@ -457,7 +457,7 @@ small {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: flex-start;
+    align-items: end;
   }
   .frontend-mentor {
     grid-area: challenged-by;
