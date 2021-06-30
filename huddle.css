@@ -98,12 +98,12 @@ p {
 }
 .largest--width {
   width: 80%;
-  max-width: 1000px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .smaller--width {
   width: 85%;
-  max-width: 1000px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .smallest--width--last-section {
@@ -429,9 +429,9 @@ small {
     align-self: center;
   }
 
-  .smaller--width {
+  /* .smaller--width {
     width: 100%;
-  }
+  } */
 
   .smallest--width--last-section {
     width: 50%;
@@ -441,6 +441,11 @@ small {
 
   .hero-content__container {
     width: 80%;
+  }
+  .custom--width {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }
 
