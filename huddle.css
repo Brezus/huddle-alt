@@ -443,7 +443,8 @@ small {
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
+    justify-self: center;
   }
   .primary-list-container {
     margin: 0;
