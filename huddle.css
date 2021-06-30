@@ -106,6 +106,9 @@ p {
   max-width: 1000px;
   margin: 0 auto;
 }
+.smallest--width--last-section {
+  width: 85%;
+}
 
 .btn {
   border: none;
@@ -350,6 +353,11 @@ small {
     background-size: cover;
     text-align: left;
   }
+  main {
+    padding-top: 8rem;
+    display: grid;
+    grid-gap: 2rem;
+  }
 
   .section-content__container {
     padding: 0 0 3rem;
@@ -380,9 +388,7 @@ small {
   .dp--flex--reverse {
     flex-direction: row-reverse;
   }
-  .last-section {
-    width: 60%;
-  }
+
   .footer-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -422,9 +428,26 @@ small {
     justify-self: center;
     align-self: center;
   }
+
+  .smaller--width {
+    width: 100%;
+  }
+
+  .smallest--width--last-section {
+    width: 50%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .hero-content__container {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 1000px) {
+  .hero-nav__link--secondary {
+    font-size: 1.1rem;
+  }
   .footer-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -458,7 +481,7 @@ small {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: end;
+    align-items: center;
   }
   .frontend-mentor {
     grid-area: challenged-by;
@@ -468,5 +491,8 @@ small {
   }
   .footer__font-awes small {
     margin-top: 15rem;
+  }
+  .pink--bg {
+    padding: 1.1em 6em;
   }
 }
