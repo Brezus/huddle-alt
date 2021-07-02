@@ -358,6 +358,9 @@ small {
     display: grid;
     grid-gap: 2rem;
   }
+  .section-content {
+    padding: inherit 6rem;
+  }
 
   .section-content__container {
     padding: 0 0 3rem;
